@@ -1,6 +1,10 @@
 let icon = document.getElementsByClassName("menu-toggle")[0];
 icon.addEventListener("click", myFunction)
 function myFunction() {
-    var element = document.getElementById("show");
-    element.classList.toggle("active");
+    let nav = document.getElementById("show");
+    nav.classList.toggle("active");
 }
+// nav.setAttribute("class", "active");
+// This attribute only work the button for one time 
+// And classList.toggle("active")
+// work on every click 
